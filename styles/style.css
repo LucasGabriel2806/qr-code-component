@@ -21,15 +21,13 @@ body {
     height: 100vh;
     font-family: "Outfit", sans-serif;
     overflow-y: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 main {
     background-color: var(--white);
     border-radius: 15px;
     max-width: 375px;
+    margin: 70px auto 0;
     padding: 20px;
     padding-bottom: 50px;
 }
@@ -55,9 +53,6 @@ p {
 .attribution { 
     font-size: 1em; 
     text-align: center; 
-    position: absolute;
-    bottom: 0;
-    width: 100%;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
