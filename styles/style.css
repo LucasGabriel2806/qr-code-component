@@ -1,64 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
-
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 :root {
     --white: hsl(0, 0%, 100%);
     --slate-300: hsl(212, 45%, 89%);
     --slate-500: hsl(216, 15%, 48%);
     --slate-900: hsl(218, 44%, 22%);
-    --fonte: "Outfit", system-ui;
+    --fonte: "Outfit", sans-serif;
 }
 
 body {
-    background: var(--slate-300);
+    background-color: var(--slate-300);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     font-family: var(--fonte);
 }
 
 main {
-    background: var(--white);
-    max-width: 300px;
-    border-radius: 17px;
+    background-color: var(--white);
+    width: 300px;
+    border-radius: 20px;
     padding: 15px;
-    padding-bottom: 35px;
     text-align: center;
 }
 
 img {
-    width: 270px;
-    margin: auto;
-    display: block;
+    width: 300px;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-.textos {
-    padding: 0 10px;
-}
-
 h1 {
-    font-size: 1.3em;
-    margin-bottom: 10px;
     color: var(--slate-900);
+    font-size: 1.5em;
+    margin-bottom: 15px;
 }
 
-p {
+p.description {
     color: var(--slate-500);
+    margin-bottom: 30px;
+    padding: 0 20px 0;
 }
 
 .attribution { 
-    font-size: 1em; 
+    font-size: 1em;
     text-align: center; 
     position: absolute;
     bottom: 0;
+    margin: auto;
 }
 
 .attribution a { 
